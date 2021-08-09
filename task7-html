@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/css/form.css">
+
+</head>
+
+    <body>
+        <div id = "top" > 
+            <form action ="#" method ="Get">
+
+        <h1 id = "first">Yes! i want To subscribe to 𝘔𝘢𝘨-𝘖-𝘡𝘪𝘯𝘦 </h1>
+        <p>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" style="font-style:italic" class="text-line" />
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" style="font-style:italic" class="text-line" />
+</p>
+<p>
+    <label for="address">Address:</label>
+    <input type="text" id="address" style="font-style:italic" class="text-line" />
+</p>
+<p>
+    <label for="city">City:</label>
+    <input type="text" id="city" style="font-style:italic" class="text-line" />
+
+    <label for="state">State</label>
+    <input type="text" id="state" style="font-style:italic" class="text-line" />
+
+    <label for="Zip">Zip</label>
+    <input type="text" id="zip" style="font-style:italic" class="text-line" />
+</p>
+<p style="font-weight: bold;">
+<label for="suscribe" >Suscribe For</label><input type="checkbox" name="suscribe" value="year" checked>
+<label for="suscribe" >1 Year($19.95)</label><input type="checkbox" name="suscribe" value="year" >
+<label for="suscribe" >1 Year($35.00)</label>
+</p>
+<p style="font-weight: bold;">
+<label for="suscribe" ">Send me more information about:</label></br>
+<input type="checkbox" name="computer-zine" value="assign" checked><label for="computer-zine ">Computer-Zine</label></br>
+<input type="checkbox" name="fishing-zine" value="assign"><label for="fishing-zine">Fishing-Zine </label></br>
+<input type="checkbox" name="cat-zine" value="assign" checked><label for="cat-zine">Cat-Zine</label>
+</p>
+</br>
+</form>
+</div>
+ </body>
+
+</html>
