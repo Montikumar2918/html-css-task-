@@ -1,0 +1,31 @@
+#first{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: red;
+    width:500px;
+    color: white;
+    font-size:110%;
+}
+#top{
+    border-style: solid;
+    border-width: medium;
+    width:510px;
+    margin-left: 500px;
+    margin-top: 150px;
+    padding-top: -10px;
+    padding-left: 10px;
+}
+
+.text-line {
+    background-color: transparent;
+    color: black;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 1px;
+    padding: 3px 10px;
+
+}
